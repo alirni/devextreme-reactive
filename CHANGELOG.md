@@ -1,3 +1,7 @@
+# [1.10.8](https://github.com/alirni/devextreme-reactive/compare/v1.10.7...v1.10.8) (2019-10-08)
+
+
+
 # [1.10.5](https://github.com/DevExpress/devextreme-reactive/compare/v1.10.4...v1.10.5) (2019-03-28)
 
 
