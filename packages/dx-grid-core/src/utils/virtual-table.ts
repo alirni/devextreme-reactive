@@ -247,10 +247,11 @@ export const getCollapsedGrid: GetCollapsedGridFn = ({
     };
   }
   const rowsVisibleBoundary = getVisibleBoundary(rows, top, height, getRowHeight, 3);
-  const columnsVisibleBoundary = getVisibleBoundaryWithFixed(
-    getVisibleBoundary(columns, left, width, getColumnWidth, 1),
-    columns,
-  );
+  // const columnsVisibleBoundary = getVisibleBoundaryWithFixed(
+  //   getVisibleBoundary(columns, left, width, getColumnWidth, 1),
+  //   columns,
+  // );
+  const columnsVisibleBoundary = [[0, columns.length - 1]];
 
   const rowSpanBoundaries = rows
     .slice(rowsVisibleBoundary[0], rowsVisibleBoundary[1])

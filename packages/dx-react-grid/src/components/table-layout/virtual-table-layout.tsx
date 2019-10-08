@@ -201,7 +201,7 @@ export class VirtualTableLayout extends React.PureComponent<PropsType, VirtualTa
 
     this.setState({
       viewportTop: node.scrollTop,
-      viewportLeft: node.scrollLeft,
+      viewportLeft: node.scrollLeft * -1,
     });
   }
 
