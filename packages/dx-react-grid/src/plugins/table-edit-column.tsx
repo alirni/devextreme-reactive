@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { getMessagesFormatter } from 'dx-core-rtl';
 import {
   Getter, Template, Plugin, TemplateConnector, Getters,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import {
   TABLE_EDIT_COMMAND_TYPE,
   tableColumnsWithEditing,

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Getter, Action, Plugin, Getters, Actions } from '@devexpress/dx-react-core';
+import { Getter, Action, Plugin, Getters, Actions } from 'dx-react-core-rtl';
 import {
   rowsWithAvailableToSelect,
   someSelected,

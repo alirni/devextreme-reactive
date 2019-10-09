@@ -11,7 +11,7 @@ import {
   getTreeRowLevelGetter,
   unwrappedCustomTreeRows,
 } from '@devexpress/dx-grid-core';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { PluginHost } from 'dx-react-core-rtl';
 import { CustomTreeData } from './custom-tree-data';
 
 jest.mock('@devexpress/dx-grid-core', () => ({

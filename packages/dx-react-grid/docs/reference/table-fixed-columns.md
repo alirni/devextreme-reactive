@@ -7,7 +7,7 @@ A plugin that enables you to fix columns to the left and right sides of the grid
 Use the following statement to import a plugin with embedded theme components:
 
 ```js
-import { TableFixedColumns } from '@devexpress/dx-react-grid-material-ui';
+import { TableFixedColumns } from 'dx-react-grid-material-ui-rtl';
 // import { TableFixedColumns } from '@devexpress/dx-react-grid-bootstrap4';
 // import { TableFixedColumns } from '@devexpress/dx-react-grid-bootstrap3';
 ```
@@ -15,7 +15,7 @@ import { TableFixedColumns } from '@devexpress/dx-react-grid-material-ui';
 If you want to use custom components, you can import the themeless plugin:
 
 ```js
-import { TableFixedColumns } from '@devexpress/dx-react-grid';
+import { TableFixedColumns } from 'dx-react-grid-rtl';
 ```
 
 ## User Reference

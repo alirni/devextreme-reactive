@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { findDOMNode } from 'react-dom';
 import { shallow, mount } from 'enzyme';
-import { isEdgeBrowser } from '@devexpress/dx-core';
-import { Sizer } from '@devexpress/dx-react-core';
+import { isEdgeBrowser } from 'dx-core-rtl';
+import { Sizer } from 'dx-react-core-rtl';
 import {
   getCollapsedGrid,
   getColumnWidthGetter,
@@ -14,9 +14,9 @@ import { VirtualTableLayout } from './virtual-table-layout';
 jest.mock('react-dom', () => ({
   findDOMNode: jest.fn(),
 }));
-jest.mock('@devexpress/dx-core', () => {
+jest.mock('dx-core-rtl', () => {
   return {
-    ...require.requireActual('@devexpress/dx-core'),
+    ...require.requireActual('dx-core-rtl'),
     isEdgeBrowser: jest.fn(),
   };
 });
@@ -29,10 +29,10 @@ jest.mock('@devexpress/dx-grid-core', () => {
 jest.mock('./column-group', () => ({
   ColumnGroup: () => null,
 }));
-jest.mock('@devexpress/dx-react-core', () => {
+jest.mock('dx-react-core-rtl', () => {
   const { Component } = require.requireActual('react');
   return {
-    ...require.requireActual('@devexpress/dx-react-core'),
+    ...require.requireActual('dx-react-core-rtl'),
     Sizer: class extends Component {
       componentDidMount() {
         // eslint-disable-next-line react/prop-types

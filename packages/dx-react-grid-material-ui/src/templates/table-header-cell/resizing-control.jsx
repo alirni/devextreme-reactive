@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Draggable } from '@devexpress/dx-react-core';
+import { Draggable } from 'dx-react-core-rtl';
 import { withStyles } from '@material-ui/core/styles';
 
 const styles = theme => ({

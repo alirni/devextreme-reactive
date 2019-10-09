@@ -7,7 +7,7 @@ import {
   groupSummaryValues,
   treeSummaryValues,
 } from '@devexpress/dx-grid-core';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { PluginHost } from 'dx-react-core-rtl';
 import { IntegratedSummary } from './integrated-summary';
 
 jest.mock('@devexpress/dx-grid-core', () => ({

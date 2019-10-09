@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Getter, Plugin, Getters } from '@devexpress/dx-react-core';
+import { Getter, Plugin, Getters } from 'dx-react-core-rtl';
 import {
   customTreeRowLevelKeyGetter,
   customTreeRowIdGetter,

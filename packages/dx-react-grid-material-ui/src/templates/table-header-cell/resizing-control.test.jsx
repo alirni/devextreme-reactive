@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { createShallow, getClasses } from '@material-ui/core/test-utils';
 import { setupConsole } from '@devexpress/dx-testing';
-import { Draggable } from '@devexpress/dx-react-core';
+import { Draggable } from 'dx-react-core-rtl';
 import { ResizingControl } from './resizing-control';
 
 const defaultProps = {

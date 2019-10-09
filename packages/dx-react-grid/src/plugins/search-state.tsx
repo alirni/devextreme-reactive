@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {
   Getter, Action, Plugin, createStateHelper, ActionFn, Getters,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import { changeSearchValue, searchFilterExpression } from '@devexpress/dx-grid-core';
 import { SearchStateProps, SearchStateState } from '../types';
 

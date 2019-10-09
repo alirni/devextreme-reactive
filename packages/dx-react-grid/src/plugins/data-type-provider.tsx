@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Plugin, Template, Getter, Getters } from '@devexpress/dx-react-core';
+import { Plugin, Template, Getter, Getters } from 'dx-react-core-rtl';
 import { getAvailableFilterOperationsGetter } from '@devexpress/dx-grid-core';
 import {
   DataTypeProvider as DataTypeProviderNS, DataTypeProviderProps,

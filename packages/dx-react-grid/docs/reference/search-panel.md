@@ -7,7 +7,7 @@ A plugin that renders the Search Panel.
 Use the following statement to import a plugin with embedded theme components:
 
 ```js
-import { SearchPanel } from '@devexpress/dx-react-grid-material-ui';
+import { SearchPanel } from 'dx-react-grid-material-ui-rtl';
 // import { SearchPanel } from '@devexpress/dx-react-grid-bootstrap4';
 // import { SearchPanel } from '@devexpress/dx-react-grid-bootstrap3';
 ```
@@ -15,7 +15,7 @@ import { SearchPanel } from '@devexpress/dx-react-grid-material-ui';
 If you want to use custom components, you can import the themeless plugin:
 
 ```js
-import { SearchPanel } from '@devexpress/dx-react-grid';
+import { SearchPanel } from 'dx-react-grid-rtl';
 ```
 
 ## User Reference

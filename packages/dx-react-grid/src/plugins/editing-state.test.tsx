@@ -3,7 +3,7 @@ import { mount } from 'enzyme';
 import {
   pluginDepsToComponents, getComputedState, testStatePluginField, setupConsole,
 } from '@devexpress/dx-testing';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { PluginHost } from 'dx-react-core-rtl';
 import {
   createRowChangeGetter,
   getColumnExtensionValueGetter,

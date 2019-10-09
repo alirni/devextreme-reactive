@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Getter, Plugin } from '@devexpress/dx-react-core';
+import { Getter, Plugin } from 'dx-react-core-rtl';
 import { SummaryStateProps } from '../types';
 
 class SummaryStateBase extends React.PureComponent<SummaryStateProps> {

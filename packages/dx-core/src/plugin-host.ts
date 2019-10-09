@@ -1,5 +1,5 @@
 import { insertPlugin } from './utils';
-import { Getters } from '@devexpress/dx-react-core';
+import { Getters } from 'dx-react-core-rtl';
 
 const getDependencyError = (
   pluginName, dependencyName,

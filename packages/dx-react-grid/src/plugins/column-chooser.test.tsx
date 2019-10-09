@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
 import { columnChooserItems } from '@devexpress/dx-grid-core';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { PluginHost } from 'dx-react-core-rtl';
 import { pluginDepsToComponents } from '@devexpress/dx-testing';
 import { ColumnChooser } from './column-chooser';
 

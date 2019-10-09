@@ -7,7 +7,7 @@ A plugin that renders a scrollable table instead of a static table. Contains the
 Use the following statement to import a plugin with embedded theme components:
 
 ```js
-import { VirtualTable } from '@devexpress/dx-react-grid-material-ui';
+import { VirtualTable } from 'dx-react-grid-material-ui-rtl';
 // import { VirtualTable } from '@devexpress/dx-react-grid-bootstrap4';
 // import { VirtualTable } from '@devexpress/dx-react-grid-bootstrap3';
 ```

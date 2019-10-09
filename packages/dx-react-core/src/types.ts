@@ -1,4 +1,4 @@
-import { PureReducer, PureComputed } from '@devexpress/dx-core';
+import { PureReducer, PureComputed } from 'dx-core-rtl';
 
 export { IDependency } from '../../dx-core/src';
 

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {
   Getter, Action, Plugin, createStateHelper, StateHelper, ActionFn, Getters, Actions,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import {
   changeColumnGrouping,
   toggleExpandedGroups,

@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { getMessagesFormatter } from 'dx-core-rtl';
 import {
   Template, TemplatePlaceholder, Plugin, TemplateConnector,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import { columnChooserItems } from '@devexpress/dx-grid-core';
 import { ColumnChooserState, ColumnChooserProps } from '../types';
 

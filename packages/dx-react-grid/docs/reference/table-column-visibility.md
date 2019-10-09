@@ -7,7 +7,7 @@ A plugin that manages Grid columns' visibility.
 Use the following statement to import a plugin with embedded theme components:
 
 ```js
-import { TableColumnVisibility } from '@devexpress/dx-react-grid-material-ui';
+import { TableColumnVisibility } from 'dx-react-grid-material-ui-rtl';
 // import { TableColumnVisibility } from '@devexpress/dx-react-grid-bootstrap4';
 // import { TableColumnVisibility } from '@devexpress/dx-react-grid-bootstrap3';
 ```
@@ -15,7 +15,7 @@ import { TableColumnVisibility } from '@devexpress/dx-react-grid-material-ui';
 If you want to use custom components, you can import the themeless plugin:
 
 ```js
-import { TableColumnVisibility } from '@devexpress/dx-react-grid';
+import { TableColumnVisibility } from 'dx-react-grid-rtl';
 ```
 
 ## User Reference

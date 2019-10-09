@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
 import { pluginDepsToComponents, getComputedState, setupConsole } from '@devexpress/dx-testing';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { PluginHost } from 'dx-react-core-rtl';
 import {
   getRowChange,
   tableRowsWithEditing,

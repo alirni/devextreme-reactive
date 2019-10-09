@@ -9,7 +9,7 @@ import {
   customGroupedRows,
   expandedGroupRows,
 } from '@devexpress/dx-grid-core';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { PluginHost } from 'dx-react-core-rtl';
 import { CustomGrouping } from './custom-grouping';
 
 jest.mock('@devexpress/dx-grid-core', () => ({

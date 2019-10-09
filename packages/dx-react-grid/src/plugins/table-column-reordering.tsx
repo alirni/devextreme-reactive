@@ -8,7 +8,7 @@ import {
   DropTarget,
   withComponents,
   Getters,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import {
   TABLE_DATA_TYPE,
   TABLE_REORDERING_TYPE,

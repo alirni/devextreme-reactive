@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {
   Template, Getter, Plugin, TemplateConnector, TemplatePlaceholder,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import { isTreeTableCell } from '@devexpress/dx-grid-core';
 import { TableTreeColumnProps, TableCellProps } from '../types';
 

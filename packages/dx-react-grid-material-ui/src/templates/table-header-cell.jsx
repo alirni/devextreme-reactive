@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import { DragSource } from '@devexpress/dx-react-core';
+import { DragSource } from 'dx-react-core-rtl';
 
 import TableCell from '@material-ui/core/TableCell';
 import { withStyles } from '@material-ui/core/styles';

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import {
   Getter, Template, Plugin, TemplateConnector, TemplatePlaceholder, Getters,
-} from '@devexpress/dx-react-core';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+} from 'dx-react-core-rtl';
+import { getMessagesFormatter } from 'dx-core-rtl';
 import {
   getColumnSortingDirection,
   tableRowsWithHeading,

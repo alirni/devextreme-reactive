@@ -4,7 +4,7 @@ import { setupConsole } from '@devexpress/dx-testing';
 import {
   Getter, PluginHost,
   DragDropProvider as DragDropProviderCore,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import { DragDropProvider } from './drag-drop-provider';
 
 // eslint-disable-next-line react/prop-types

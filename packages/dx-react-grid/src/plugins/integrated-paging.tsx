@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Getter, Plugin, Getters, Actions } from '@devexpress/dx-react-core';
+import { Getter, Plugin, Getters, Actions } from 'dx-react-core-rtl';
 import {
   paginatedRows, rowsWithPageHeaders, rowCount, currentPage,
 } from '@devexpress/dx-grid-core';

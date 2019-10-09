@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {
   Getter, Action, Plugin, createStateHelper,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import { setCurrentPage, setPageSize } from '@devexpress/dx-grid-core';
 import { PagingStateProps, PagingStateState } from '../types';
 

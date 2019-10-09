@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import TableMUI from '@material-ui/core/Table';
 import RootRef from '@material-ui/core/RootRef';
 import { withStyles } from '@material-ui/core/styles';
-import { RefType } from '@devexpress/dx-react-core';
+import { RefType } from 'dx-react-core-rtl';
 import { getBorder } from './utils';
 
 const styles = theme => ({

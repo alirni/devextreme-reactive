@@ -5,7 +5,7 @@ import {
   groupingPanelItems,
   getColumnSortingDirection,
 } from '@devexpress/dx-grid-core';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { PluginHost } from 'dx-react-core-rtl';
 import { GroupingPanel } from './grouping-panel';
 
 jest.mock('@devexpress/dx-grid-core', () => ({

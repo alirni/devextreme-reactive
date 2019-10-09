@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Getter, Plugin, Getters } from '@devexpress/dx-react-core';
+import { Getter, Plugin, Getters } from 'dx-react-core-rtl';
 import {
   filteredRows,
   filteredCollapsedRowsGetter,
@@ -8,7 +8,7 @@ import {
   defaultFilterPredicate,
   FilterPredicate,
 } from '@devexpress/dx-grid-core';
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { IntegratedFilteringProps, DefaultPredicateFn } from '../types';
 
 const pluginDependencies = [

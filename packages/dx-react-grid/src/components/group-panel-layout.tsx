@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { findDOMNode } from 'react-dom';
-import { DropTarget } from '@devexpress/dx-react-core';
+import { DropTarget } from 'dx-react-core-rtl';
 import { getGroupCellTargetIndex } from '@devexpress/dx-grid-core';
 import { ItemLayout } from './group-panel-layout/item-layout';
 import { GroupingPanel as GP } from '../types';

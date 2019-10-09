@@ -55,11 +55,6 @@
     "publish:site": "yarn && node ./scripts/publish-site.js",
     "update-api": "lerna run update-api"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "yarn build:ts && yarn update-api"
-    }
-  },
   "workspaces": [
     "packages/*"
   ]

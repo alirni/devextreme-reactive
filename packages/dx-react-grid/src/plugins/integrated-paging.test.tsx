@@ -4,7 +4,7 @@ import { pluginDepsToComponents, getComputedState, setupConsole } from '@devexpr
 import {
   paginatedRows, rowsWithPageHeaders, currentPage, rowCount,
 } from '@devexpress/dx-grid-core';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { PluginHost } from 'dx-react-core-rtl';
 import { IntegratedPaging } from './integrated-paging';
 
 jest.mock('@devexpress/dx-grid-core', () => ({
