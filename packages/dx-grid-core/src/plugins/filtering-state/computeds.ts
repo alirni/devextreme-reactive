@@ -1,5 +1,5 @@
 import { FilterExpression, Filter } from '../../types';
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 
 export const filterExpression: PureComputed<
   [Filter[], FilterExpression?], FilterExpression

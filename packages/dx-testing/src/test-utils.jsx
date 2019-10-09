@@ -6,7 +6,7 @@ import {
   TemplatePlaceholder,
   TemplateConnector,
   Plugin,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 
 const computedEntries = object => Object.getOwnPropertyNames(object)
   .reduce((acc, key) => Object.assign(acc, { [key]: object[key] }), {});

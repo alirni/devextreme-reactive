@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { withComponents } from '@devexpress/dx-react-core';
-import { TableGroupRow as TableGroupRowBase } from '@devexpress/dx-react-grid';
+import { withComponents } from 'dx-react-core-rtl';
+import { TableGroupRow as TableGroupRowBase } from 'dx-react-grid-rtl';
 import { Cell } from '../templates/table-group-cell/cell';
 import { TableRow as Row } from '../templates/table-row';
 import { Content } from '../templates/table-group-cell/content';

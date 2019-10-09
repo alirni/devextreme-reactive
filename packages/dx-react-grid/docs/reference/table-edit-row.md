@@ -7,7 +7,7 @@ A plugin that renders a row being edited.
 Use the following statement to import a plugin with embedded theme components:
 
 ```js
-import { TableEditRow } from '@devexpress/dx-react-grid-material-ui';
+import { TableEditRow } from 'dx-react-grid-material-ui-rtl';
 // import { TableEditRow } from '@devexpress/dx-react-grid-bootstrap4';
 // import { TableEditRow } from '@devexpress/dx-react-grid-bootstrap3';
 ```
@@ -15,7 +15,7 @@ import { TableEditRow } from '@devexpress/dx-react-grid-material-ui';
 If you want to use custom components, you can import the themeless plugin:
 
 ```js
-import { TableEditRow } from '@devexpress/dx-react-grid';
+import { TableEditRow } from 'dx-react-grid-rtl';
 ```
 
 ## User Reference

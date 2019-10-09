@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { GridColumnExtension } from './table.types';
 import { Row, GetCellValueFn, IsSpecificRowFn, GetRowLevelKeyFn } from './grid-core.types';
 import { CompareFn } from './merge-sort.types';

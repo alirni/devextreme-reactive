@@ -1,4 +1,4 @@
-import { PureReducer, slice } from '@devexpress/dx-core';
+import { PureReducer, slice } from 'dx-core-rtl';
 import { ColumnOrder, ChangeColumnOrderPayload } from '../../types';
 
 export const changeColumnOrder: PureReducer<ColumnOrder, ChangeColumnOrderPayload> = (

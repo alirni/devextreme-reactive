@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Plugin, Template, TemplateConnector } from '@devexpress/dx-react-core';
+import { Plugin, Template, TemplateConnector } from 'dx-react-core-rtl';
 import { SpaceFillingRectsProps, BBoxes } from '../types';
 
 export class SpaceFillingRects extends React.PureComponent<SpaceFillingRectsProps> {

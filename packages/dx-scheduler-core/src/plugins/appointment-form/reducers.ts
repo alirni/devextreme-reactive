@@ -1,4 +1,4 @@
-import { PureReducer } from '@devexpress/dx-core';
+import { PureReducer } from 'dx-core-rtl';
 import { AppointmentModel, AppointmentDataPayload } from '../../types';
 
 export const setAppointmentData: PureReducer<

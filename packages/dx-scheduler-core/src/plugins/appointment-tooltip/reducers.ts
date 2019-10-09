@@ -1,4 +1,4 @@
-import { PureReducer } from '@devexpress/dx-core';
+import { PureReducer } from 'dx-core-rtl';
 import { AppointmentMeta } from '../../types';
 
 export const setAppointmentMeta: PureReducer<AppointmentMeta, AppointmentMeta> = (

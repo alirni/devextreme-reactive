@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Plugin, Getter, Getters } from '@devexpress/dx-react-core';
+import { Plugin, Getter, Getters } from 'dx-react-core-rtl';
 import { getStackedSeries, getStackedDomains } from '@devexpress/dx-chart-core';
 import { StackProps, StacksOptions, OffsetFn, OrderFn } from '../types';
 import {

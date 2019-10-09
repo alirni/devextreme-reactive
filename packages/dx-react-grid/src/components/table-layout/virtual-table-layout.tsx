@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { findDOMNode } from 'react-dom';
-import { isEdgeBrowser, memoize, MemoizedFunction } from '@devexpress/dx-core';
-import { Sizer, RefHolder } from '@devexpress/dx-react-core';
+import { isEdgeBrowser, memoize, MemoizedFunction } from 'dx-core-rtl';
+import { Sizer, RefHolder } from 'dx-react-core-rtl';
 import {
   getCollapsedGrid,
   TABLE_STUB_TYPE,

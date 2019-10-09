@@ -1,4 +1,4 @@
-import { PureComputed, PureReducer } from '@devexpress/dx-core';
+import { PureComputed, PureReducer } from 'dx-core-rtl';
 import { TableColumn } from './table.types';
 
 // tslint:disable-next-line:prefer-array-literal

@@ -2,8 +2,8 @@ import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import {
   Plugin, Template,
-} from '@devexpress/dx-react-core';
-import { createClickHandlers } from '@devexpress/dx-core';
+} from 'dx-react-core-rtl';
+import { createClickHandlers } from 'dx-core-rtl';
 
 const pluginDependencies = [
   { name: 'DayView', optional: true },

@@ -7,7 +7,7 @@ A plugin that renders a command column. This column contains controls used for r
 Use the following statement to import a plugin with embedded theme components:
 
 ```js
-import { TableEditColumn } from '@devexpress/dx-react-grid-material-ui';
+import { TableEditColumn } from 'dx-react-grid-material-ui-rtl';
 // import { TableEditColumn } from '@devexpress/dx-react-grid-bootstrap4';
 // import { TableEditColumn } from '@devexpress/dx-react-grid-bootstrap3';
 ```
@@ -15,7 +15,7 @@ import { TableEditColumn } from '@devexpress/dx-react-grid-material-ui';
 If you want to use custom components, you can import the themeless plugin:
 
 ```js
-import { TableEditColumn } from '@devexpress/dx-react-grid';
+import { TableEditColumn } from 'dx-react-grid-rtl';
 ```
 
 ## User Reference

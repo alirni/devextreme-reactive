@@ -1,13 +1,13 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { getMessagesFormatter } from 'dx-core-rtl';
 import {
   Plugin,
   Template,
   createStateHelper,
   TemplateConnector,
   TemplatePlaceholder,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import {
   setAppointmentData,
   isAllDayCell,

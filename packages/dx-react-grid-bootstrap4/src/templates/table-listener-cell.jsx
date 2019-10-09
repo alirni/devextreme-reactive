@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { Sizer } from '@devexpress/dx-react-core';
+import { Sizer } from 'dx-react-core-rtl';
 import classNames from 'classnames';
 import { TableStubCell } from './table-stub-cell';
 

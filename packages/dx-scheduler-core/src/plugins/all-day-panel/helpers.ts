@@ -1,5 +1,5 @@
 import moment from 'moment';
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import {
   AppointmentMoment, GetAllDayCellIndexByDateFn,
   SliceAppointmentsByBoundariesFn, AppointmentDate,

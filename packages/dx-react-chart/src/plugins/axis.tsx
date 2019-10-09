@@ -7,7 +7,7 @@ import {
   withComponents,
   PluginComponents,
   onSizeChangeFn,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import {
   ARGUMENT_DOMAIN, getValueDomainName,
   axisCoordinates, createTickFilter, LEFT, BOTTOM, getGridCoordinates,

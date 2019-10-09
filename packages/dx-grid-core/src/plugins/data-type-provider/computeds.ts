@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { GetAvailableFilterOperationsFn, FilterOperation } from '../../types';
 
 export const getAvailableFilterOperationsGetter: PureComputed<

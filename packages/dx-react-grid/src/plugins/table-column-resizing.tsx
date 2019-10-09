@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { memoize, MemoizedComputed } from '@devexpress/dx-core';
+import { memoize, MemoizedComputed } from 'dx-core-rtl';
 import {
   Plugin, Getter, Action, createStateHelper, StateHelper, ActionFn, Getters,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import {
   tableColumnsWithWidths,
   tableColumnsWithDraftWidths,

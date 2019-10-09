@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {
   Getter, Template, TemplatePlaceholder, TemplateConnector, Plugin, Getters,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import {
   getRowChange,
   tableRowsWithEditing,

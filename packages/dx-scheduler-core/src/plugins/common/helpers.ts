@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { VERTICAL_TYPE, HORIZONTAL_TYPE } from '../../constants';
 
 const MONTH_TYPE = 'month';

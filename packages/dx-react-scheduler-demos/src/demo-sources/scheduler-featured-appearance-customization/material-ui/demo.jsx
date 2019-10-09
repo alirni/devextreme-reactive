@@ -16,7 +16,7 @@ import {
   AppointmentTooltip,
   AppointmentForm,
 } from '@devexpress/dx-react-scheduler-material-ui';
-import { connectProps } from '@devexpress/dx-react-core';
+import { connectProps } from 'dx-react-core-rtl';
 import moment from 'moment';
 import { withStyles } from '@material-ui/core/styles';
 import PriorityHigh from '@material-ui/icons/PriorityHigh';

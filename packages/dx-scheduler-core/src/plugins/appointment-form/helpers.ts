@@ -1,5 +1,5 @@
 import moment from 'moment';
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { Action, StartDate, EndDate } from '../../types';
 
 export const callActionIfExists: PureComputed<[Action, object], void> = (action, payload) => {

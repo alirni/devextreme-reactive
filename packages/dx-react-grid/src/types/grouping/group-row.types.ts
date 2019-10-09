@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { Table, Column } from '../index';
 
 // tslint:disable-next-line: no-namespace

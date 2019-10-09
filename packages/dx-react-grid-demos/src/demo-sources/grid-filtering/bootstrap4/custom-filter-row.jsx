@@ -3,7 +3,7 @@ import * as PropTypes from 'prop-types';
 import {
   FilteringState,
   IntegratedFiltering,
-} from '@devexpress/dx-react-grid';
+} from 'dx-react-grid-rtl';
 import {
   Grid,
   Table,

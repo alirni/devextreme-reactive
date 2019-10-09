@@ -7,7 +7,7 @@ A plugin that renders a filter row.
 Use the following statement to import a plugin with embedded theme components:
 
 ```js
-import { TableFilterRow } from '@devexpress/dx-react-grid-material-ui';
+import { TableFilterRow } from 'dx-react-grid-material-ui-rtl';
 // import { TableFilterRow } from '@devexpress/dx-react-grid-bootstrap4';
 // import { TableFilterRow } from '@devexpress/dx-react-grid-bootstrap3';
 ```
@@ -15,7 +15,7 @@ import { TableFilterRow } from '@devexpress/dx-react-grid-material-ui';
 If you want to use custom components, you can import the themeless plugin:
 
 ```js
-import { TableFilterRow } from '@devexpress/dx-react-grid';
+import { TableFilterRow } from 'dx-react-grid-rtl';
 ```
 
 ## User Reference

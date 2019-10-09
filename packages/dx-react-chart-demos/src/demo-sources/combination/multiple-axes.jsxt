@@ -19,7 +19,7 @@ import {
   HoverState,
 } from '@devexpress/dx-react-chart';
 import { HOVERED } from '@devexpress/dx-chart-core';
-import { connectProps } from '@devexpress/dx-react-core';
+import { connectProps } from 'dx-react-core-rtl';
 import { format } from 'd3-format';
 
 import { oilProduction } from '../../../demo-data/data-vizualization';

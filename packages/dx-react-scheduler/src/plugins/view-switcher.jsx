@@ -5,7 +5,7 @@ import {
   Template,
   TemplatePlaceholder,
   TemplateConnector,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 
 const pluginDependencies = [
   { name: 'Toolbar' },

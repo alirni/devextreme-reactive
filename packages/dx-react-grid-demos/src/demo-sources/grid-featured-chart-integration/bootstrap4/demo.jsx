@@ -2,7 +2,7 @@ import * as React from 'react';
 import {
   RowDetailState,
   DataTypeProvider,
-} from '@devexpress/dx-react-grid';
+} from 'dx-react-grid-rtl';
 import {
   scaleBand,
 } from '@devexpress/dx-chart-core';

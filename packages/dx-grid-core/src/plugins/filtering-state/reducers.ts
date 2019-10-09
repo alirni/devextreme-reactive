@@ -1,5 +1,5 @@
 import { Filter, ChangeFilterPayload } from '../../types';
-import { PureReducer, slice } from '@devexpress/dx-core';
+import { PureReducer, slice } from 'dx-core-rtl';
 
 export const changeColumnFilter: PureReducer<Filter[], ChangeFilterPayload> = (
   filters, { columnName, config },

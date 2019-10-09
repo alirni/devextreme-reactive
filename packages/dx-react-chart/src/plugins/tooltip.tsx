@@ -7,7 +7,7 @@ import {
   TemplatePlaceholder,
   withComponents,
   PluginComponents,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import { getParameters, processHandleTooltip, createReference } from '@devexpress/dx-chart-core';
 import { Target } from '../templates/tooltip/target';
 import { TooltipProps, TooltipState, GetPointerMoveHandlersFn } from '../types';

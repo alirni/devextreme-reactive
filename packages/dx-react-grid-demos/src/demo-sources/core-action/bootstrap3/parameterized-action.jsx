@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {
   PluginHost, Plugin, Getter, Action, Template, TemplatePlaceholder, TemplateConnector,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 
 export default class Demo extends React.PureComponent {
   constructor(props) {

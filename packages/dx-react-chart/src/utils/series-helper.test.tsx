@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { PluginHost } from 'dx-react-core-rtl';
 import {
   findSeriesByName, addSeries, extendDomains, getValueDomainName,
 } from '@devexpress/dx-chart-core';

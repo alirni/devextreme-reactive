@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import Input from '@material-ui/core/Input';
 import { withStyles } from '@material-ui/core/styles';
-import { DataTypeProvider } from '@devexpress/dx-react-grid';
+import { DataTypeProvider } from 'dx-react-grid-rtl';
 
 const styles = {
   numericInput: {

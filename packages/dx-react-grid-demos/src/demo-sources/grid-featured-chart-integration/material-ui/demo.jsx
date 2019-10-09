@@ -3,7 +3,7 @@ import Paper from '@material-ui/core/Paper';
 import {
   RowDetailState,
   DataTypeProvider,
-} from '@devexpress/dx-react-grid';
+} from 'dx-react-grid-rtl';
 import {
   scaleBand,
 } from '@devexpress/dx-chart-core';
@@ -21,7 +21,7 @@ import {
 import {
   Grid, Table, TableBandHeader, TableHeaderRow,
   TableRowDetail,
-} from '@devexpress/dx-react-grid-material-ui';
+} from 'dx-react-grid-material-ui-rtl';
 import { withStyles } from '@material-ui/core/styles';
 import { citiesCount, regionsCount } from '../../../demo-data/chart-data';
 

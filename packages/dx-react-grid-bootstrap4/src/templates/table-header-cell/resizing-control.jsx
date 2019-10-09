@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Draggable } from '@devexpress/dx-react-core';
+import { Draggable } from 'dx-react-core-rtl';
 
 export class ResizingControl extends React.PureComponent {
   constructor(props) {

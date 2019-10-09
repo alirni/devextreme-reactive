@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
 import { pluginDepsToComponents } from '@devexpress/dx-testing';
-import { PluginHost, TemplatePlaceholder } from '@devexpress/dx-react-core';
+import { PluginHost, TemplatePlaceholder } from 'dx-react-core-rtl';
 import {
   allDayCells,
   calculateRectByDateIntervals,

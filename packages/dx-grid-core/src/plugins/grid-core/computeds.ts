@@ -1,6 +1,6 @@
 import { GRID_GROUP_CHECK } from '../integrated-grouping/constants';
 import { GetRowIdFn, Row, RowId, GetCellValueFn, Column } from '../../types';
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 
 const warnIfRowIdUndefined: PureComputed<[GetRowIdFn]> = getRowId => (row) => {
   const result = getRowId(row);

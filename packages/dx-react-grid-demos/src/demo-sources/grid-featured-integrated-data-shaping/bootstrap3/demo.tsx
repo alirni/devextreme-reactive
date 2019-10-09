@@ -4,7 +4,7 @@ import {
   FilteringState, GroupingState,
   IntegratedFiltering, IntegratedGrouping, IntegratedPaging, IntegratedSelection, IntegratedSorting,
   PagingState, SelectionState, SortingState,DataTypeProvider, DataTypeProviderProps,
-} from '@devexpress/dx-react-grid';
+} from 'dx-react-grid-rtl';
 import {
   DragDropProvider,
   Grid, GroupingPanel, PagingPanel,

@@ -4,7 +4,7 @@ import { connect, Provider } from 'react-redux';
 import {
   SortingState, SelectionState, FilteringState, PagingState, GroupingState, RowDetailState,
   IntegratedFiltering, IntegratedGrouping, IntegratedPaging, IntegratedSorting, IntegratedSelection,
-} from '@devexpress/dx-react-grid';
+} from 'dx-react-grid-rtl';
 import {
   Grid, Table, TableBandHeader, TableHeaderRow,
   TableFilterRow, TableSelection, TableGroupRow, TableRowDetail,

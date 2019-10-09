@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { AppointmentId, AppointmentChanges } from '../../types';
 
 export const changedAppointmentById: PureComputed<

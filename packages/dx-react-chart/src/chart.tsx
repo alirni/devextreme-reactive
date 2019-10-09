@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { PluginHost, withComponents, PluginComponents } from '@devexpress/dx-react-core';
+import { PluginHost, withComponents, PluginComponents } from 'dx-react-core-rtl';
 import {
   TOP, BOTTOM, LEFT, RIGHT,
 } from '@devexpress/dx-chart-core';

@@ -1,4 +1,4 @@
-import { PureReducer } from '@devexpress/dx-core';
+import { PureReducer } from 'dx-core-rtl';
 import {
   AppointmentId, AddedAppointmentDataPayload, AppointmentModel, Changes, EditAppointmentPayload,
 } from '../../types';

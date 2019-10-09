@@ -1,9 +1,9 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { FilteringState, IntegratedFiltering, DataTypeProvider } from '@devexpress/dx-react-grid';
+import { FilteringState, IntegratedFiltering, DataTypeProvider } from 'dx-react-grid-rtl';
 import {
   Grid, Table, TableHeaderRow, TableFilterRow,
-} from '@devexpress/dx-react-grid-material-ui';
+} from 'dx-react-grid-material-ui-rtl';
 import Paper from '@material-ui/core/Paper';
 import Input from '@material-ui/core/Input';
 import { withStyles } from '@material-ui/core/styles';

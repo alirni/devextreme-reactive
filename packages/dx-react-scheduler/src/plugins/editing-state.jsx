@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import {
   Action, Plugin, Getter, createStateHelper,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import {
   addAppointment,
   cancelAddedAppointment,

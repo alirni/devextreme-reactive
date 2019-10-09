@@ -1,4 +1,4 @@
-import { slice } from '@devexpress/dx-core';
+import { slice } from 'dx-core-rtl';
 import { TABLE_ADDED_TYPE, TABLE_EDIT_TYPE } from './constants';
 import { TABLE_DATA_TYPE } from '../table/constants';
 import { TableRowsWithEditingFn } from '../../types';

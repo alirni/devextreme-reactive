@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { withComponents } from '@devexpress/dx-react-core';
-import { TableRowDetail as TableRowDetailBase } from '@devexpress/dx-react-grid';
+import { withComponents } from 'dx-react-core-rtl';
+import { TableRowDetail as TableRowDetailBase } from 'dx-react-grid-rtl';
 import { TableDetailToggleCell as ToggleCell } from '../templates/table-detail-toggle-cell';
 import { TableDetailCell as Cell } from '../templates/table-detail-cell';
 import { TableRow as Row } from '../templates/table-row';

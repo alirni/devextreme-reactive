@@ -5,7 +5,7 @@ import {
   Template,
   Plugin,
   TemplatePlaceholder,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 
 export class Toolbar extends React.PureComponent {
   render() {

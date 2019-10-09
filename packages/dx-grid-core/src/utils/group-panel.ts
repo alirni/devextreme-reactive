@@ -1,6 +1,6 @@
 import { getTargetColumnGeometries } from './column-geometries';
 import { TargetColumnGeometry, GetGroupCellTargetIndexFn } from '../types';
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 
 const isOnTheSameLine: PureComputed<[TargetColumnGeometry, number], boolean> = (geometry, y) => (
   y >= geometry.top && y <= geometry.bottom

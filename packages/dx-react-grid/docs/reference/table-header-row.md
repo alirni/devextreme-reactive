@@ -9,7 +9,7 @@ The plugin also allows you to manage a column's sorting and grouping state and i
 Use the following statement to import a plugin with embedded theme components:
 
 ```js
-import { TableHeaderRow } from '@devexpress/dx-react-grid-material-ui';
+import { TableHeaderRow } from 'dx-react-grid-material-ui-rtl';
 // import { TableHeaderRow } from '@devexpress/dx-react-grid-bootstrap4';
 // import { TableHeaderRow } from '@devexpress/dx-react-grid-bootstrap3';
 ```
@@ -17,7 +17,7 @@ import { TableHeaderRow } from '@devexpress/dx-react-grid-material-ui';
 If you want to use custom components, you can import the themeless plugin:
 
 ```js
-import { TableHeaderRow } from '@devexpress/dx-react-grid';
+import { TableHeaderRow } from 'dx-react-grid-rtl';
 ```
 
 ## User Reference

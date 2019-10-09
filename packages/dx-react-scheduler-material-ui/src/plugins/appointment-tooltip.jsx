@@ -1,4 +1,4 @@
-import { withComponents } from '@devexpress/dx-react-core';
+import { withComponents } from 'dx-react-core-rtl';
 import { AppointmentTooltip as AppointmentTooltipBase } from '@devexpress/dx-react-scheduler';
 import { Layout } from '../templates/appointment-tooltip/layout';
 import { Header } from '../templates/appointment-tooltip/header';

@@ -1,5 +1,5 @@
 import moment from 'moment';
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { Appointment, AppointmentDate } from './scheduler-core.types';
 
 export type ViewCellData = { startDate: Date; endDate: Date; };

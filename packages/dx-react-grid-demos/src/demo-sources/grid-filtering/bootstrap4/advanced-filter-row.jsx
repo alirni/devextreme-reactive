@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { FilteringState, IntegratedFiltering, DataTypeProvider } from '@devexpress/dx-react-grid';
+import { FilteringState, IntegratedFiltering, DataTypeProvider } from 'dx-react-grid-rtl';
 import {
   Grid, Table, TableHeaderRow, TableFilterRow,
 } from '@devexpress/dx-react-grid-bootstrap4';

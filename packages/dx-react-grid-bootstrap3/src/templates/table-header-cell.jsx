@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 
-import { DragSource } from '@devexpress/dx-react-core';
+import { DragSource } from 'dx-react-core-rtl';
 
 import { ResizingControl } from './table-header-cell/resizing-control';
 

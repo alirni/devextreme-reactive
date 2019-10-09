@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { PluginHost, Template } from '@devexpress/dx-react-core';
+import { PluginHost, Template } from 'dx-react-core-rtl';
 import { pluginDepsToComponents, getComputedState } from '@devexpress/dx-testing';
 import { buildEventHandlers } from '@devexpress/dx-chart-core';
 import { EventTracker } from './event-tracker';

@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { Column } from '../../types/grid-core.types';
 import { ColumnChooserItem } from '../../types';
 

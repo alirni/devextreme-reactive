@@ -2,7 +2,7 @@ import * as React from 'react';<%&additionalImports%>
 import {
   SelectionState,
   IntegratedSelection,
-} from '@devexpress/dx-react-grid';
+} from 'dx-react-grid-rtl';
 import {
   Grid,
   Table,

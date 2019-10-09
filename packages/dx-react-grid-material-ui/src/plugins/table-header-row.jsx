@@ -1,6 +1,6 @@
 import * as PropTypes from 'prop-types';
-import { withComponents } from '@devexpress/dx-react-core';
-import { TableHeaderRow as TableHeaderRowBase } from '@devexpress/dx-react-grid';
+import { withComponents } from 'dx-react-core-rtl';
+import { TableHeaderRow as TableHeaderRowBase } from 'dx-react-grid-rtl';
 import { TableHeaderCell as Cell } from '../templates/table-header-cell';
 import { TableRow as Row } from '../templates/table-row';
 import { SortLabel } from '../templates/table-header-cell/sort-label';

@@ -1,4 +1,4 @@
-import { withComponents } from '@devexpress/dx-react-core';
+import { withComponents } from 'dx-react-core-rtl';
 import { Title as TitleBase } from '@devexpress/dx-react-chart';
 import { Text } from '../templates/title/text';
 

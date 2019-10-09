@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { getMessagesFormatter } from 'dx-core-rtl';
 import {
   Action,
   Getter,
@@ -10,7 +10,7 @@ import {
   createStateHelper,
   ActionFn,
   Getters,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import {
   toggleColumn,
   visibleTableColumns,

@@ -1,5 +1,5 @@
 import { NODE_CHECK, rowsToTree, treeToRows } from '../../utils/hierarchical-data';
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import {
   Row, Filter, FilterPredicate,
   FilterExpression, GetCellValueFn, RowsWithCollapsedRowsMetaMap,

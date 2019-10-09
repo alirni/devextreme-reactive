@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import {
   ScaleObject, GetFormatFn, NumberArray,
 } from './chart-core.types';

@@ -1,5 +1,5 @@
 import * as React from 'react';<%&additionalImports%>
-import { Column } from '@devexpress/dx-react-grid';
+import { Column } from 'dx-react-grid-rtl';
 import { Grid, Table, TableHeaderRow } from '@devexpress/dx-react-grid-<%&themeName%>';
 import { generateRows } from '../../../demo-data/generator';
 

@@ -7,7 +7,7 @@ A plugin that performs built-in data sorting.
 Use the following statement to import the plugin:
 
 ```js
-import { IntegratedSorting } from '@devexpress/dx-react-grid';
+import { IntegratedSorting } from 'dx-react-grid-rtl';
 ```
 
 ## User Reference

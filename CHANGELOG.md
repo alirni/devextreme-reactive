@@ -96,7 +96,7 @@
   Previously, `pointComponent` of `BarSeries` and `PieSeries` accepted precalculated fields (`width` and `d`, respectively). Now, `pointComponent` accepts fields that provide raw data for calculation. This makes `pointComponent` more flexible as the `width` and `d` fields can now be calculated the way you need.
 
   The following substitutions took place:
- 
+
   - `width` => `barWidth` and `maxBarWidth`
   - `d` => `innerRadius`, `outerRadius`, `maxRadius`, `startAngle`, and `endAngle`
 
@@ -1103,15 +1103,15 @@ Because we extracted the sorting control, the `getMessage` property was moved fr
   </Grid>
   ```
 * **react-grid:** In order to simplify API, we've decided to remove allowDragging properties in TableHeaderRow and GroupingPanel plugins. Now, to enable dragging it is enough to add the DragDropContext plugin.
-* **react-grid:**  
+* **react-grid:**
 To provide a more convenient and flexible way to render elements that are placed within a Grid header we add the Toolbar plugin. For this reason, the GroupingPanel plugin has the Toolbar dependency:
- 
+
   ```js
   import {
     // ...
     Toolbar,
     GroupingPanel
-  } from '@devexpress/dx-react-grid-material-ui';
+  } from 'dx-react-grid-material-ui-rtl';
 
   <Grid>
     {/* ... */}
@@ -1119,10 +1119,10 @@ To provide a more convenient and flexible way to render elements that are placed
     <GroupingPanel />
   </Grid>
   ```
-   
+
   To simplify Grid's markup we removed header placeholder and footer placeholder components.
   If you're customizing Grid appearance using the `headerPlaceholderComponent` and `footerPlaceholderComponent` properties, your code should be updated as follows:
-   
+
   Before:
 
   ```js
@@ -1137,7 +1137,7 @@ To provide a more convenient and flexible way to render elements that are placed
   After:
 
   ```js
-  import { Template, TemplatePlaceholder } from '@devexpress/dx-react-core';
+  import { Template, TemplatePlaceholder } from 'dx-react-core-rtl';
 
   <Grid>
     <Template name="header">
@@ -1260,7 +1260,7 @@ To provide a more convenient and flexible way to render elements that are placed
   ```
   The related [guide](https://devexpress.github.io/devextreme-reactive/react/grid/docs/guides/immutable-data/) is updated as well.
 * **react-grid-material-ui:** To make Grid for Material-UI more flexible we've stopped using the [Paper](https://material-ui.com/demos/paper/) component inside the Grid's layout.
- 
+
 It allows placing our Grid to an existing Paper with other components. For example:
 
   ```js
@@ -1405,7 +1405,7 @@ Now, you can use a Getter instead.
   import {
     // ...
     ColumnOrderState
-  } from '@devexpress/dx-react-grid';
+  } from 'dx-react-grid-rtl';
 
   // ...
 
@@ -1419,7 +1419,7 @@ Now, you can use a Getter instead.
     // ...
     TableColumnReordering
   } from '@devexpress/dx-react-grid-bootstrap3';
-  // } from '@devexpress/dx-react-grid-material-ui';
+  // } from 'dx-react-grid-material-ui-rtl';
 
   // ...
 
@@ -1433,7 +1433,7 @@ Now, you can use a Getter instead.
   ```
   import {
     TableColumnResizing,
-  } from from '@devexpress/dx-react-grid-bootstrap3'/* or '@devexpress/dx-react-grid-material-ui' */;
+  } from from '@devexpress/dx-react-grid-bootstrap3'/* or 'dx-react-grid-material-ui-rtl' */;
   ```
 
 
@@ -1651,9 +1651,9 @@ The following changes have been made in the GroupingPanel plugin:
   - the `groupedColumns` property has been renamed to `groupingPanelItems` and now contains an array of objects which conform the GroupingPanelItem interface.
 
   The `isDraft` property of the DraftGrouping interface has been renamed to `draft`.
-* **react-grid:**  
+* **react-grid:**
 In order to reduce API verbosity, the `groupedColumns` and `draftGroupedColumns` getters are no longer exported from the GroupingState plugin.
- 
+
 The `column` field is no longer present in the GroupRow interface. So, to access the `column` field in groupCellTemplate and groupIndentCellTemplate of the TableGroupRow plugin, it is necessary to use `args.column` instead of `args.row.column`.
 * **react-grid:** The `colspan` field passed to tableNoDataCellTemplate (the TableView plugin), detailCellTemplate (the TableRowDetail plugin) and groupCellTemplate (the TableGroupRow plugin) has been renamed to `colSpan`.
 * **react-grid:** To simplify the Grid plugins API the `setRowSelection` action was removed from the `SelectionState` and `TableSelection` plugins.
@@ -1663,7 +1663,7 @@ The `column` field is no longer present in the GroupRow interface. So, to access
     ```js
     setRowsSelection({ rowIds: [/* rowId */] })
     ```
-* **react-grid:**  
+* **react-grid:**
 `TableRow` and `TableColumn` interfaces structure has been changed. Now, it wraps original rows and columns of the Grid component instead of patching it.
 
   Before:
@@ -1896,7 +1896,7 @@ The `column` field is no longer present in the GroupRow interface. So, to access
   ```jsx
   import {
     Grid
-  } from '@devexpress/dx-react-grid';
+  } from 'dx-react-grid-rtl';
   ```
 
   should be replaced with:

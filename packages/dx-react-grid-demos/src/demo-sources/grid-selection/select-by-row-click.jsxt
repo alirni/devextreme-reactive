@@ -1,5 +1,5 @@
 import * as React from 'react';<%&additionalImports%>
-import { SelectionState } from '@devexpress/dx-react-grid';
+import { SelectionState } from 'dx-react-grid-rtl';
 import {
   Grid,
   Table,

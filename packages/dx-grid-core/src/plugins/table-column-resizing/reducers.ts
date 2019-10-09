@@ -1,4 +1,4 @@
-import { slice } from '@devexpress/dx-core';
+import { slice } from 'dx-core-rtl';
 import { ColumnWidthReducer } from '../../types';
 
 export const changeTableColumnWidth: ColumnWidthReducer = (

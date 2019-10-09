@@ -1,5 +1,5 @@
 /** Describes a filter. */
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { Row, GetCellValueFn, GetRowLevelKeyFn, GetCollapsedRowsFn } from './grid-core.types';
 import { RowsWithCollapsedRowsMetaMap } from './tree-data.types';
 

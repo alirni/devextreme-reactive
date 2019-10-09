@@ -2,7 +2,7 @@ import * as React from 'react';
 import {
   TableLayout as TableLayoutCore,
   StaticTableLayout,
-} from '@devexpress/dx-react-grid';
+} from 'dx-react-grid-rtl';
 
 const MINIMAL_COLUMN_WIDTH = 150;
 

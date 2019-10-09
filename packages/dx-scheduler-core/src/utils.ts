@@ -1,5 +1,5 @@
 import moment from 'moment';
-import { CustomFunction, PureComputed } from '@devexpress/dx-core';
+import { CustomFunction, PureComputed } from 'dx-core-rtl';
 import { HORIZONTAL_TYPE, VERTICAL_TYPE } from './constants';
 import {
   ComputedHelperFn, ViewPredicateFn,

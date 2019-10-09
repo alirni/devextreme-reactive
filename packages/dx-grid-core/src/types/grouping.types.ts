@@ -1,4 +1,4 @@
-import { PureComputed, CustomFunction } from '@devexpress/dx-core';
+import { PureComputed, CustomFunction } from 'dx-core-rtl';
 import { Column, Row, GetCellValueFn } from './grid-core.types';
 import { TableColumn, TargetColumnGeometry } from './table.types';
 

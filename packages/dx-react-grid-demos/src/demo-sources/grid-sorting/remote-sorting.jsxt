@@ -1,5 +1,5 @@
 import * as React from 'react';<%&additionalImports%>
-import { SortingState } from '@devexpress/dx-react-grid';
+import { SortingState } from 'dx-react-grid-rtl';
 import {
   Grid,
   VirtualTable,

@@ -4,7 +4,7 @@ import {
 } from '@devexpress/dx-testing';
 import { changeCurrentDate, setCurrentViewName } from '@devexpress/dx-scheduler-core';
 import { mount } from 'enzyme';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { PluginHost } from 'dx-react-core-rtl';
 import { ViewState } from './view-state';
 
 jest.mock('@devexpress/dx-scheduler-core', () => ({

@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { CellElement, AppointmentDate } from './scheduler-core.types';
 import { ViewCellData } from './all-day-panel.types';
 import { EndDate } from './appointment-form.types';

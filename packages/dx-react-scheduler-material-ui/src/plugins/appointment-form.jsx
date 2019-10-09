@@ -1,4 +1,4 @@
-import { withComponents } from '@devexpress/dx-react-core';
+import { withComponents } from 'dx-react-core-rtl';
 import { AppointmentForm as AppointmentFormBase } from '@devexpress/dx-react-scheduler';
 import { Popup } from '../templates/appointment-form/popup';
 import { CommandButton } from '../templates/appointment-form/command-button';

@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { TABLE_FILTER_TYPE, DEFAULT_FILTER_OPERATIONS } from './constants';
 import { TABLE_DATA_TYPE } from '../table/constants';
 import {

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { PluginHost } from 'dx-react-core-rtl';
 import { pluginDepsToComponents, getComputedState } from '@devexpress/dx-testing';
 import { getParameters, createReference, processHandleTooltip } from '@devexpress/dx-chart-core';
 import { Tooltip } from './tooltip';

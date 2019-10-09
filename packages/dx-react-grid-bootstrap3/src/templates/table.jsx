@@ -2,7 +2,7 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { RefType } from '@devexpress/dx-react-core';
+import { RefType } from 'dx-react-core-rtl';
 import { ThemeColors } from './layout';
 
 let globalStickyProp;

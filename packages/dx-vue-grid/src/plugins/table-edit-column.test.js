@@ -1,7 +1,7 @@
 import { mount } from '@vue/test-utils';
 import { setupConsole } from '@devexpress/dx-testing';
 import { DxPluginHost } from '@devexpress/dx-vue-core';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { getMessagesFormatter } from 'dx-core-rtl';
 import {
   tableColumnsWithEditing,
   isHeadingEditCommandsTableCell,
@@ -22,8 +22,8 @@ jest.mock('@devexpress/dx-grid-core', () => ({
   isEditTableRow: jest.fn(),
 }));
 
-jest.mock('@devexpress/dx-core', () => ({
-  ...require.requireActual('@devexpress/dx-core'),
+jest.mock('dx-core-rtl', () => ({
+  ...require.requireActual('dx-core-rtl'),
   getMessagesFormatter: jest.fn(),
 }));
 

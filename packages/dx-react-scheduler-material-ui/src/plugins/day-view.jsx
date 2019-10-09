@@ -1,4 +1,4 @@
-import { withComponents } from '@devexpress/dx-react-core';
+import { withComponents } from 'dx-react-core-rtl';
 import { DayView as DayViewBase } from '@devexpress/dx-react-scheduler';
 import { VerticalViewLayout as Layout } from '../templates/layouts/vertical-view-layout';
 

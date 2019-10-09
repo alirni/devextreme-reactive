@@ -1,4 +1,4 @@
-import { easeOutCubic } from '@devexpress/dx-core';
+import { easeOutCubic } from 'dx-core-rtl';
 import { getTargetColumnGeometries } from './column-geometries';
 import {
   GetTableColumnGeometriesFn, GetTableTargetColumnIndexFn, ColumnAnimation,

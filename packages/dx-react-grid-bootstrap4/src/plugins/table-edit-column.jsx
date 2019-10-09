@@ -1,5 +1,5 @@
-import { withComponents } from '@devexpress/dx-react-core';
-import { TableEditColumn as TableEditColumnBase } from '@devexpress/dx-react-grid';
+import { withComponents } from 'dx-react-core-rtl';
+import { TableEditColumn as TableEditColumnBase } from 'dx-react-grid-rtl';
 import {
   EditCommandHeadingCell as HeaderCell,
   EditCommandCell as Cell,

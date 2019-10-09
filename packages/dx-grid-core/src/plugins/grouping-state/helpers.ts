@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { Grouping, Sorting, GroupIndex } from '../../types';
 
 export const adjustSortIndex: PureComputed<[GroupIndex, Grouping[], Sorting[]]> = (

@@ -5,7 +5,7 @@ import {
   IntegratedGrouping,
   IntegratedSummary,
   DataTypeProvider,
-} from '@devexpress/dx-react-grid';
+} from 'dx-react-grid-rtl';
 import {
   Grid,
   Table,

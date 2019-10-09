@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { TableColumn } from './table.types';
 import { HeaderColumnChainRows } from './header-row.types';
 

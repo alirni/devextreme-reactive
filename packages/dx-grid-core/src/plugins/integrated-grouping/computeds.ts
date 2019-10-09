@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { GROUP_KEY_SEPARATOR } from '../grouping-state/constants';
 import {
   GRID_GROUP_TYPE,

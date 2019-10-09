@@ -1,4 +1,4 @@
-import { PureReducer } from '@devexpress/dx-core';
+import { PureReducer } from 'dx-core-rtl';
 
 export const toggleColumn: PureReducer<string[], string> = (
   hiddenColumnNames, columnName,

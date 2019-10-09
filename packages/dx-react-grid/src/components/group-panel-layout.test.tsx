@@ -2,13 +2,13 @@ import * as React from 'react';
 import { mount } from 'enzyme';
 import { findDOMNode } from 'react-dom';
 import { setupConsole } from '@devexpress/dx-testing';
-import { DragSource, DropTarget } from '@devexpress/dx-react-core';
+import { DragSource, DropTarget } from 'dx-react-core-rtl';
 import { GroupPanelLayout } from './group-panel-layout';
 
 jest.mock('react-dom', () => ({
   findDOMNode: jest.fn(),
 }));
-jest.mock('@devexpress/dx-react-core', () => ({
+jest.mock('dx-react-core-rtl', () => ({
   DragSource: jest.fn(({ children }) => children),
   DropTarget: jest.fn(({ children }) => children),
 }));

@@ -1,4 +1,4 @@
-import { slice } from '@devexpress/dx-core';
+import { slice } from 'dx-core-rtl';
 import { TABLE_DATA_TYPE } from '../table/constants';
 import {
   FIXED_COLUMN_LEFT_SIDE, TABLE_FIXED_TYPE,

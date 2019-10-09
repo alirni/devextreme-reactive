@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
 import { pluginDepsToComponents } from '@devexpress/dx-testing';
-import { PluginHost } from '@devexpress/dx-react-core';
-import { createClickHandlers } from '@devexpress/dx-core';
+import { PluginHost } from 'dx-react-core-rtl';
+import { createClickHandlers } from 'dx-core-rtl';
 import { Appointments } from './appointments';
 
 // eslint-disable-next-line react/prop-types
@@ -14,8 +14,8 @@ const defaultProps = {
   appointmentContentComponent: AppointmentContent,
 };
 
-jest.mock('@devexpress/dx-core', () => ({
-  ...require.requireActual('@devexpress/dx-core'),
+jest.mock('dx-core-rtl', () => ({
+  ...require.requireActual('dx-core-rtl'),
   createClickHandlers: jest.fn(),
 }));
 

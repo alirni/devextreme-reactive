@@ -8,7 +8,7 @@ import {
   withComponents,
   Getters,
   PluginComponents,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import {
   findSeriesByName, addSeries, extendDomains, getValueDomainName, ARGUMENT_DOMAIN,
 } from '@devexpress/dx-chart-core';

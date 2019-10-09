@@ -1,5 +1,5 @@
 import { TableColumn, TableRow } from './table.types';
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 
 /** @internal */
 export type GetColumnWidthFn = PureComputed<[TableColumn, number?], number | null>;

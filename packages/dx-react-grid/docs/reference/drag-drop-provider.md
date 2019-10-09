@@ -7,7 +7,7 @@ A plugin that implements the drag-and-drop functionality and visualizes columns 
 Use the following statement to import a plugin with embedded theme components:
 
 ```js
-import { DragDropProvider } from '@devexpress/dx-react-grid-material-ui';
+import { DragDropProvider } from 'dx-react-grid-material-ui-rtl';
 // import { DragDropProvider } from '@devexpress/dx-react-grid-bootstrap4';
 // import { DragDropProvider } from '@devexpress/dx-react-grid-bootstrap3';
 ```
@@ -15,7 +15,7 @@ import { DragDropProvider } from '@devexpress/dx-react-grid-material-ui';
 If you want to use custom components, you can import the themeless plugin:
 
 ```js
-import { DragDropProvider } from '@devexpress/dx-react-grid';
+import { DragDropProvider } from 'dx-react-grid-rtl';
 ```
 
 ## User Reference

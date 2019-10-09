@@ -1,12 +1,12 @@
 import * as React from 'react';
 import Paper from '@material-ui/core/Paper';
-import { DataTypeProvider } from '@devexpress/dx-react-grid';
+import { DataTypeProvider } from 'dx-react-grid-rtl';
 import {
   Grid,
   Table,
   TableBandHeader,
   TableHeaderRow,
-} from '@devexpress/dx-react-grid-material-ui';
+} from 'dx-react-grid-material-ui-rtl';
 import { withStyles } from '@material-ui/core/styles';
 import Equalizer from '@material-ui/icons/Equalizer';
 import People from '@material-ui/icons/People';

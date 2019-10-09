@@ -1,4 +1,4 @@
-import { withComponents } from '@devexpress/dx-react-core';
+import { withComponents } from 'dx-react-core-rtl';
 import { WeekView as WeekViewBase } from '@devexpress/dx-react-scheduler';
 import { VerticalViewLayout as Layout } from '../templates/layouts/vertical-view-layout';
 

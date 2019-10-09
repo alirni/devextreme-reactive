@@ -1,5 +1,5 @@
-import { withComponents } from '@devexpress/dx-react-core';
-import { TableBandHeader as TableBandHeaderBase } from '@devexpress/dx-react-grid';
+import { withComponents } from 'dx-react-core-rtl';
+import { TableBandHeader as TableBandHeaderBase } from 'dx-react-grid-rtl';
 import { Cell } from '../templates/table-band-header/cell';
 import { BandedHeaderCell } from '../templates/table-band-header/banded-header-cell';
 import { InvisibleCell } from '../templates/table-band-header/invisible-cell';

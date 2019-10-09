@@ -3,7 +3,7 @@ import {
   DataTypeProvider,
   TreeDataState, SortingState, SelectionState, FilteringState, PagingState,
   CustomTreeData, IntegratedFiltering, IntegratedPaging, IntegratedSorting, IntegratedSelection,
-} from '@devexpress/dx-react-grid';
+} from 'dx-react-grid-rtl';
 import {
   Grid,
   Table, TableHeaderRow, TableFilterRow, TableTreeColumn,

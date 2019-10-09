@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {
   Getter, Action, Plugin, createStateHelper, ActionFn,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import { toggleDetailRowExpanded, ToggleRowPayload } from '@devexpress/dx-grid-core';
 import { RowDetailStateProps, RowDetailStateState } from '../types';
 

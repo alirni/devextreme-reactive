@@ -5,7 +5,7 @@ import {
   Template,
   TemplateConnector,
   TemplatePlaceholder,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 
 // Original *Sizer* cannot be used because it ignores (as it should do) *forceUpdate* request.
 // *UpdatableSizer* implements *componentDidUpdate* and forces internal *Sizer* size calculation.

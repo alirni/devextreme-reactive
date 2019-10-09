@@ -2,7 +2,7 @@ import {
   DxTemplate, DxTemplatePlaceholder,
   DxTemplateConnector, DxPlugin,
 } from '@devexpress/dx-vue-core';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { getMessagesFormatter } from 'dx-core-rtl';
 import { pageCount } from '@devexpress/dx-grid-core';
 
 const pluginDependencies = [

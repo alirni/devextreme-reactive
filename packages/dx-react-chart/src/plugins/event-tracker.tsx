@@ -5,7 +5,7 @@ import {
   Getter,
   TemplatePlaceholder,
   TemplateConnector,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import { buildEventHandlers } from '@devexpress/dx-chart-core';
 import { EventTrackerProps, HandlerFn, EventHandlers } from '../types';
 

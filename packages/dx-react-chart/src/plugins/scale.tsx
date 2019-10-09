@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Plugin, Getter, Getters } from '@devexpress/dx-react-core';
+import { Plugin, Getter, Getters } from 'dx-react-core-rtl';
 import { ARGUMENT_DOMAIN, getValueDomainName, addDomain } from '@devexpress/dx-chart-core';
 import { withPatchedProps } from '../utils';
 import { ScaleProps, ArgumentScaleProps, ValueScaleProps } from '../types';

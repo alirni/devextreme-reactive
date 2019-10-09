@@ -1,5 +1,5 @@
 import { TableColumn, TableRow } from './table.types';
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 
 /** @internal */
 export type HeaderColumnChain = { start: number, columns: ReadonlyArray<TableColumn> };

@@ -5,7 +5,7 @@ import {
   Action,
   Getters,
   ActionFn,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import { adjustLayout, ViewportOptions } from '@devexpress/dx-chart-core';
 import { ViewportProps, ViewportState } from '../types';
 

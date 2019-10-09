@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
 import { pluginDepsToComponents, getComputedState, setupConsole } from '@devexpress/dx-testing';
-import { PluginHost } from '@devexpress/dx-react-core';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { PluginHost } from 'dx-react-core-rtl';
+import { getMessagesFormatter } from 'dx-core-rtl';
 import {
   tableRowsWithSummaries,
   tableRowsWithTotalSummaries,
@@ -16,8 +16,8 @@ import {
 } from '@devexpress/dx-grid-core';
 import { TableSummaryRow } from './table-summary-row';
 
-jest.mock('@devexpress/dx-core', () => ({
-  ...require.requireActual('@devexpress/dx-core'),
+jest.mock('dx-core-rtl', () => ({
+  ...require.requireActual('dx-core-rtl'),
   getMessagesFormatter: jest.fn(),
 }));
 

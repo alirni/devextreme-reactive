@@ -1,4 +1,4 @@
-import { withComponents } from '@devexpress/dx-react-core';
+import { withComponents } from 'dx-react-core-rtl';
 import { AllDayPanel as AllDayPanelBase } from '@devexpress/dx-react-scheduler';
 import { Container as AppointmentLayer } from '../templates/appointment/container';
 import { Layout } from '../templates/all-day-panel/layout';

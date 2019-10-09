@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
 import { pluginDepsToComponents, getComputedState, setupConsole } from '@devexpress/dx-testing';
-import { PluginHost, Template, TemplatePlaceholder } from '@devexpress/dx-react-core';
+import { PluginHost, Template, TemplatePlaceholder } from 'dx-react-core-rtl';
 import {
   FIXED_COLUMN_LEFT_SIDE,
   FIXED_COLUMN_RIGHT_SIDE,

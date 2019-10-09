@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { Appointment } from './scheduler-core.types';
 import { AppointmentMoment } from './all-day-panel.types';
 

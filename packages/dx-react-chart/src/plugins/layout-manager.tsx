@@ -8,7 +8,7 @@ import {
   createStateHelper,
   Getters,
   ActionFn,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import { bBoxes, getRanges } from '@devexpress/dx-chart-core';
 import { LayoutManagerProps, LayoutManagerState, BBoxesChange } from '../types';
 

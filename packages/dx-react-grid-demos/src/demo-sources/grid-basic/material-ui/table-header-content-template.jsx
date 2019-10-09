@@ -6,7 +6,7 @@ import {
   Grid,
   Table,
   TableHeaderRow,
-} from '@devexpress/dx-react-grid-material-ui';
+} from 'dx-react-grid-material-ui-rtl';
 import { withStyles } from '@material-ui/core/styles';
 import {
   generateRows,

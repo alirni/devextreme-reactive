@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { Grid as GridBase } from '@devexpress/dx-react-grid';
+import { Grid as GridBase } from 'dx-react-grid-rtl';
 import { Root } from './templates/layout';
 
 export const Grid = ({ children, ...props }) => (

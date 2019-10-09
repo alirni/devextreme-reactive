@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Plugin, Getter, Getters } from '@devexpress/dx-react-core';
+import { Plugin, Getter, Getters } from 'dx-react-core-rtl';
 import { buildScales, scaleSeriesPoints } from '@devexpress/dx-chart-core';
 
 const getScales = ({ domains, ranges }: Getters) => buildScales(domains, ranges);

@@ -1,4 +1,4 @@
-import { PureReducer } from '@devexpress/dx-core';
+import { PureReducer } from 'dx-core-rtl';
 import { RowId, Row, RowIdsPayload, RowPayload, RowChangePayload, RowChanges } from '../../types';
 
 export const startEditRows: PureReducer<RowId[], RowIdsPayload> = (

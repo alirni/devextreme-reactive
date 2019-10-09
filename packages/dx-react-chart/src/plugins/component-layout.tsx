@@ -2,7 +2,7 @@ import * as React from 'react';
 import {
   TOP, BOTTOM, LEFT, RIGHT,
 } from '@devexpress/dx-chart-core';
-import { Plugin, Template, TemplatePlaceholder } from '@devexpress/dx-react-core';
+import { Plugin, Template, TemplatePlaceholder } from 'dx-react-core-rtl';
 
 export const ComponentLayout: React.SFC = () => (
   <Plugin name="ComponentLayout">

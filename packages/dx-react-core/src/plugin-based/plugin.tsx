@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { InnerPlugin } from '@devexpress/dx-core';
+import { InnerPlugin } from 'dx-core-rtl';
 import { PluginIndexer } from './plugin-indexer';
 import { PLUGIN_HOST_CONTEXT, POSITION_CONTEXT } from './constants';
 import { withHostAndPosition } from '../utils/with-props-from-context';

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { mount } from 'enzyme';
 import { pluginDepsToComponents, setupConsole } from '@devexpress/dx-testing';
 import { pageCount } from '@devexpress/dx-grid-core';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { PluginHost } from 'dx-react-core-rtl';
 import { PagingPanel } from './paging-panel';
 
 jest.mock('@devexpress/dx-grid-core', () => ({

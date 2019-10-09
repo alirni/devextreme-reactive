@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import mergeSort from '../../utils/merge-sort';
 import { NODE_CHECK, rowsToTree, treeToRows } from '../../utils/hierarchical-data';
 import {

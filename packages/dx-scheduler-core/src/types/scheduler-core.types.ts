@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 
 export type CurrentTime = Date | number | string;
 export type AppointmentDate = Date | number | string;

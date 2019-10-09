@@ -6,7 +6,7 @@ import {
   TemplatePlaceholder,
   TemplateConnector,
   Getters,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import {
   isFixedTableRow,
   tableColumnsWithFixed,

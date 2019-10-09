@@ -11,7 +11,7 @@ import {
   AppointmentTooltip,
   AppointmentForm,
 } from '@devexpress/dx-react-scheduler-material-ui';
-import { connectProps } from '@devexpress/dx-react-core';
+import { connectProps } from 'dx-react-core-rtl';
 import { InlineDateTimePicker, MuiPickersUtilsProvider } from 'material-ui-pickers';
 import MomentUtils from '@date-io/moment';
 import { withStyles } from '@material-ui/core/styles';

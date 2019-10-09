@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { withComponents } from '@devexpress/dx-react-core';
-import { Table as TableBase } from '@devexpress/dx-react-grid';
+import { withComponents } from 'dx-react-core-rtl';
+import { Table as TableBase } from 'dx-react-grid-rtl';
 import { TableLayout as Layout } from '../templates/table-layout';
 import { TableCell as Cell } from '../templates/table-cell';
 import { TableStubCell as StubCell } from '../templates/table-stub-cell';

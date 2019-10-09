@@ -9,7 +9,7 @@ Optionally, the plugin allows an end-user to change grouped columns' sorting ord
 Use the following statement to import a plugin with embedded theme components:
 
 ```js
-import { GroupingPanel } from '@devexpress/dx-react-grid-material-ui';
+import { GroupingPanel } from 'dx-react-grid-material-ui-rtl';
 // import { GroupingPanel } from '@devexpress/dx-react-grid-bootstrap4';
 // import { GroupingPanel } from '@devexpress/dx-react-grid-bootstrap3';
 ```
@@ -17,7 +17,7 @@ import { GroupingPanel } from '@devexpress/dx-react-grid-material-ui';
 If you want to use custom components, you can import the themeless plugin:
 
 ```js
-import { GroupingPanel } from '@devexpress/dx-react-grid';
+import { GroupingPanel } from 'dx-react-grid-rtl';
 ```
 
 ## User Reference

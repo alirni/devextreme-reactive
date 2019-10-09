@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { connectProps, PluginComponents } from '@devexpress/dx-react-core';
+import { connectProps, PluginComponents } from 'dx-react-core-rtl';
 import { VirtualTableProps, VirtualTableLayoutProps } from '../types';
 
 /** @internal */

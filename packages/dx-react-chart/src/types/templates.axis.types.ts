@@ -1,4 +1,4 @@
-import { onSizeChangeFn } from '@devexpress/dx-react-core';
+import { onSizeChangeFn } from 'dx-react-core-rtl';
 
 // tslint:disable-next-line: no-namespace
 export namespace Axis {

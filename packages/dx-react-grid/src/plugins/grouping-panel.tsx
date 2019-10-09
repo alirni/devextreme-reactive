@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { getMessagesFormatter } from 'dx-core-rtl';
 import {
   Template, TemplatePlaceholder, Plugin, TemplateConnector, withComponents,
   Getters, Actions,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import {
   groupingPanelItems,
   getColumnSortingDirection,

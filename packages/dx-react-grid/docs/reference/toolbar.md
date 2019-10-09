@@ -7,7 +7,7 @@ A plugin that renders the Grid toolbar.
 Use the following statement to import a plugin with embedded theme components:
 
 ```js
-import { Toolbar } from '@devexpress/dx-react-grid-material-ui';
+import { Toolbar } from 'dx-react-grid-material-ui-rtl';
 // import { Toolbar } from '@devexpress/dx-react-grid-bootstrap4';
 // import { Toolbar } from '@devexpress/dx-react-grid-bootstrap3';
 ```
@@ -15,7 +15,7 @@ import { Toolbar } from '@devexpress/dx-react-grid-material-ui';
 If you want to use custom components, you can import the themeless plugin:
 
 ```js
-import { Toolbar } from '@devexpress/dx-react-grid';
+import { Toolbar } from 'dx-react-grid-rtl';
 ```
 
 ## User Reference

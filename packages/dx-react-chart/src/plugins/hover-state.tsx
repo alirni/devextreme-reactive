@@ -3,7 +3,7 @@ import {
   Plugin,
   Getter,
   Getters,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import {
   changeSeriesState, processPointerMove, HOVERED, TargetData,
 } from '@devexpress/dx-chart-core';

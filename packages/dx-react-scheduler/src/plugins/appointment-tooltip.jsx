@@ -6,7 +6,7 @@ import {
   TemplatePlaceholder,
   TemplateConnector,
   createStateHelper,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import {
   OPEN_COMMAND_BUTTON,
   CLOSE_COMMAND_BUTTON,

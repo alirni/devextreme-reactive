@@ -2,7 +2,7 @@ import * as React from 'react';<%&additionalImports%>
 import {
   SortingState, SelectionState, FilteringState, GroupingState, SearchState,
   IntegratedFiltering, IntegratedGrouping, IntegratedSorting, IntegratedSelection,
-} from '@devexpress/dx-react-grid';
+} from 'dx-react-grid-rtl';
 import {
   Grid,
   VirtualTable, TableHeaderRow, TableFilterRow, TableSelection, TableGroupRow,

@@ -8,7 +8,7 @@ import {
   getColumnExtension,
   defaultFilterPredicate,
 } from '@devexpress/dx-grid-core';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { PluginHost } from 'dx-react-core-rtl';
 import { IntegratedFiltering } from './integrated-filtering';
 
 jest.mock('@devexpress/dx-grid-core', () => ({

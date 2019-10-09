@@ -1,5 +1,5 @@
 import moment from 'moment';
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import { ViewBoundTextFn } from '../../types';
 
 const calculateTextByDays: PureComputed<

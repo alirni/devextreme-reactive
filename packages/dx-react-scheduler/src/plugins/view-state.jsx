@@ -5,7 +5,7 @@ import {
   Action,
   Plugin,
   createStateHelper,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import { changeCurrentDate, setCurrentViewName } from '@devexpress/dx-scheduler-core';
 
 export class ViewState extends React.PureComponent {

@@ -6,7 +6,7 @@ import {
 } from './helpers';
 import { UPDATE_CONNECTION_EVENT, PLUGIN_HOST_CONTEXT, POSITION_CONTEXT } from './constants';
 import { withHostAndPosition } from '../utils/with-props-from-context';
-import { InnerPlugin } from '@devexpress/dx-core';
+import { InnerPlugin } from 'dx-core-rtl';
 import { PluginContextProps } from './plugin-context-prop-types';
 
 export interface GetterProps {

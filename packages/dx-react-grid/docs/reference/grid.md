@@ -7,7 +7,7 @@ The Grid is a root container component designed to process and display data spec
 Use the following statement to import a plugin with embedded theme components:
 
 ```js
-import { Grid } from '@devexpress/dx-react-grid-material-ui';
+import { Grid } from 'dx-react-grid-material-ui-rtl';
 // import { Grid } from '@devexpress/dx-react-grid-bootstrap4';
 // import { Grid } from '@devexpress/dx-react-grid-bootstrap3';
 ```
@@ -15,7 +15,7 @@ import { Grid } from '@devexpress/dx-react-grid-material-ui';
 If you want to use custom components, you can import the themeless plugin:
 
 ```js
-import { Grid } from '@devexpress/dx-react-grid';
+import { Grid } from 'dx-react-grid-rtl';
 ```
 
 ## User reference

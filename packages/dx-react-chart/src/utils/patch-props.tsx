@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ITargetComponent } from '@devexpress/dx-react-core';
+import { ITargetComponent } from 'dx-react-core-rtl';
 
 /** @internal */
 export const withPatchedProps = (

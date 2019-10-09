@@ -1,5 +1,5 @@
 import * as Immutable from 'seamless-immutable';
-import { ReadonlyObject } from '@devexpress/dx-core';
+import { ReadonlyObject } from 'dx-core-rtl';
 import { changeColumnSorting } from './reducers';
 import { ColumnSortingState, ChangeSortingPayload } from '../../types';
 

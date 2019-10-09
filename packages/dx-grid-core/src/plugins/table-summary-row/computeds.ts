@@ -1,4 +1,4 @@
-import { PureComputed } from '@devexpress/dx-core';
+import { PureComputed } from 'dx-core-rtl';
 import {
   TABLE_TOTAL_SUMMARY_TYPE,
   TABLE_GROUP_SUMMARY_TYPE,

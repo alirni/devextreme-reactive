@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { withComponents } from '@devexpress/dx-react-core';
+import { withComponents } from 'dx-react-core-rtl';
 import { Appointments as AppointmentsBase } from '@devexpress/dx-react-scheduler';
 import { HORIZONTAL_TYPE, VERTICAL_TYPE } from '@devexpress/dx-scheduler-core';
 import { HorizontalAppointment } from '../templates/appointment/horizontal-appointment';

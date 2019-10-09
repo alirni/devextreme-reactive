@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
 import { pluginDepsToComponents, getComputedState, setupConsole } from '@devexpress/dx-testing';
-import { PluginHost } from '@devexpress/dx-react-core';
+import { PluginHost } from 'dx-react-core-rtl';
 import {
   tableColumnsWithEditing,
   isHeadingEditCommandsTableCell,
@@ -10,7 +10,7 @@ import {
   isAddedTableRow,
   isEditTableRow,
 } from '@devexpress/dx-grid-core';
-import { getMessagesFormatter } from '@devexpress/dx-core';
+import { getMessagesFormatter } from 'dx-core-rtl';
 import { TableEditColumn } from './table-edit-column';
 
 jest.mock('@devexpress/dx-grid-core', () => ({
@@ -22,8 +22,8 @@ jest.mock('@devexpress/dx-grid-core', () => ({
   isEditTableRow: jest.fn(),
 }));
 
-jest.mock('@devexpress/dx-core', () => ({
-  ...require.requireActual('@devexpress/dx-core'),
+jest.mock('dx-core-rtl', () => ({
+  ...require.requireActual('dx-core-rtl'),
   getMessagesFormatter: jest.fn(),
 }));
 

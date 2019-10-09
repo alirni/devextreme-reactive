@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {
   Plugin, Getter, Template, TemplatePlaceholder,
-} from '@devexpress/dx-react-core';
+} from 'dx-react-core-rtl';
 import { rowIdGetter, cellValueGetter } from '@devexpress/dx-grid-core';
 import { GridProps } from '../types';
 
