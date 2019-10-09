@@ -1,18 +1,18 @@
 {
-  "name": "@devexpress/dx-react-core",
+  "name": "dx-react-core-rtl",
   "version": "1.10.6-rtl",
   "description": "Core library for DevExtreme React Components",
   "author": {
-    "name": "Developer Express Inc.",
+    "name": "SamianSoft",
     "url": "https://www.devexpress.com/"
   },
   "bugs": {
-    "url": "https://github.com/DevExpress/devextreme-reactive/issues"
+    "url": "https://github.com/alirni/devextreme-reactive/issues"
   },
   "homepage": "https://devexpress.github.io/devextreme-reactive/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevExpress/devextreme-reactive.git"
+    "url": "git+https://github.com/alirni/devextreme-reactive.git"
   },
   "keywords": [
     "react",
